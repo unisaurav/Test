@@ -12,7 +12,7 @@ const val= (value :string)=>{
 function App() {
   return (
     <div className="App">
-      <User name='Testprop' lastname='Testprop2' myfun={val} />
+      <User name='Testprop' lastname='Changed prop' myfun={val} />
     </div>
   );
 }
