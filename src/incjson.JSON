@@ -1,0 +1,26 @@
+{
+    "Incident_number" : "String",
+    "INC_State" : "1",
+    "Group" : "groupname",
+    "Caller" : "callername,stirng",
+    "Short_Description" : "stirng",
+    "Problem_Description" : "string",
+    "Created_Date" : "time",
+    "Impact" : "1-high/ 2-modrate/ 3-Low",
+    "Assignment_Group" : "Groupname",
+    "Assigned_to" : "personname",
+    "Worknotes" :[
+        {
+            "Note" : "fullnote",
+            "customer" : true
+        },
+        {
+            "Note" : "fullnote",
+            "customer" : false
+        }   
+    ],
+    "Resolution_notes" : "Null"
+
+}
+
+npx create-react-app snowF --template typescript
