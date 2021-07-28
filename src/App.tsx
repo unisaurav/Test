@@ -6,13 +6,14 @@ import { User } from './User';
 
 const val= (value :string)=>{
   console.log(value)
+  console.log("its me boiii")
   return value
 }
 
 function App() {
   return (
     <div className="App">
-      <User name='Testprop' lastname='Changed prop auto' myfun={val} />
+      <User name='Testprop' lastname='Changed prop auto show' myfun={val} />
     </div>
   );
 }
